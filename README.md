@@ -10,6 +10,14 @@ Wordpress のカスタムテーマ開発を webpack を用いて、ホットリ�
 - webpack -> 5.88.2
 - volta -> 1.1.1
 
+## git の管理を取り除く
+
+このレポジトリを clone した後、以下のコマンドで git の管理を取り除く
+
+```zsh
+rm -rf .git
+```
+
 ## Set Up
 
 ### 事前準備
