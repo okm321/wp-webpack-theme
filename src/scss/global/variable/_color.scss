@@ -1,0 +1,33 @@
+/**
+ * @file - 色周りの変数を管理するファイル
+ * @see https://qiita.com/1natsu172/items/ef6b0fcba6bbe380df1e
+ * Palette - このプロジェクトで使う色を定義する
+ * Color - 特定の色を使うエリアを定義する
+ */
+/*==== Palette ====*/
+// basic color
+$palette-light: #f0f0f0;
+$palette-dark: #0e0e0e;
+$palette-primary: #f05e1c;
+$palette-denkyu-100: #fff8f0;
+$palette-denkyu-200: #ffe3c0;
+$palette-denkyu-300: #ff8c00;
+$palette-gray: #52433d;
+
+/*==== Color ====*/
+$color-global: $palette-primary;
+$color-bg: $palette-denkyu-100;
+$color-base-text: $palette-dark;
+
+/** ヘッダー */
+$color-header-bg: $palette-primary;
+$color-header-text: $palette-light;
+$color-header-box-shadow-top: $palette-denkyu-200;
+$color-header-box-shadow-under: $palette-denkyu-300;
+$color-hamburger-line: $palette-denkyu-200;
+
+/** トップページ */
+$color-mv-mask: $palette-dark;
+
+/** scroll-down */
+$color-scroll-down: $palette-denkyu-200;

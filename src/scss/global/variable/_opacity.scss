@@ -1,0 +1,7 @@
+/**
+ * @file - opacityの変数を管理する
+ */
+
+$baseOpacity: 0.6;
+$lightOpacity: $baseOpacity + 0.2;
+$heavyOpacity: $baseOpacity - 0.2;

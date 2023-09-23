@@ -1,0 +1,7 @@
+/**
+ * @file - transitionの変数を管理する
+ */
+
+$baseTransition: 0.6s;
+$fastTransition: $baseTransition - 0.2s;
+$slowTransition: $baseTransition + 0.2s;

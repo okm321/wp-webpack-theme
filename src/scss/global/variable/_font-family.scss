@@ -1,0 +1,8 @@
+/**
+ * @file - フォントの変数を管理する
+ */
+@font-face {
+  font-family: "normal";
+  src: url("@font/SawarabiGothic-Regular.ttf");
+}
+$font-normal: "normal";

@@ -1,0 +1,19 @@
+/**
+ * @file - breakpointまわりの変数を管理する
+ */
+
+/*==== breakpoint ====*/
+$bp-xs: 600;
+$bp-sm: 960;
+$bp-md: 1264;
+$bp-lg: 1904;
+
+/*==== SPのbreakpoint ====*/
+$bp-mobile: 768;
+
+/*==== メディアクエリbreakpoint ====*/
+$breakpoints: (
+  sp: "screen and (max-width: 767px)",
+  tab-pc: "screen and (min-width: 768px) and (max-width: 1024px)",
+  pc: "screen and (min-width: 1025px)",
+);
