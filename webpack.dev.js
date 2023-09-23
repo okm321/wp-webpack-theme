@@ -12,7 +12,7 @@ module.exports = merge(common(), {
       host: "localhost",
       files: ["./**/*.php", "./**/*.scss"],
       port: 3000,
-      // dockerとホストをつないでいるポートをproxyで指定
+      // ホストをつないでいるポートをproxyで指定
       proxy: {
         target: "http://localhost:8000",
       },
